@@ -17,8 +17,8 @@ Tento jednoduchý skript přidá UTM parametry do kampaní, konkrétně přidá 
 Pokud chcete něco přidat, změnit či odebrat, tak jen upravte řádek s tracking templatem:
 {lpurl}?utm_source=google&utm_medium=cpc&utm_campaign={_campaign}&utm_id=" + campaign.getId()
 
-# Proč ve skriptu nastavuji custom parametr a nepoužívám valueTrack
-Bohužel Google Ads narozdíl od SA360 nepodporují valueTrack s názvem kampaně. Musíme tedy přes skript vzít název kampaně, uložit to jako custom parametr a ten pak vložit do daného templatu. Proč nepoužívám valueTrack u campaignId si již nepamatuji, ale klidně to můžete nahradit, na funkcionalitě to nic nemění. Kdybyste chtěli tracking o něco obohatit, tak seznam valueTrack parametrů je zde:
+# Proč ve skriptu nastavuji custom parametr a nepoužívám valueTrack parametr
+Bohužel Google Ads narozdíl od SA360 nepodporují valueTrack s názvem kampaně. Musíme tedy přes skript vzít název kampaně, uložit ho jako custom parametr a ten pak vložit do daného templatu. Proč nepoužívám valueTrack u campaignId si již nepamatuji, ale klidně to můžete nahradit, na funkcionalitě to nic nemění. Kdybyste chtěli tracking o něco obohatit, tak seznam valueTrack parametrů je zde:
 https://support.google.com/google-ads/answer/6305348?hl=en#zippy=%2Ctracking-template-only%2Cfinal-url-only%2Cshopping-campaigns-only%2Cperformance-max-campaigns%2Cfinal-url-tracking-template-or-custom-parameter
 
 # Jak často skript odbíhat?

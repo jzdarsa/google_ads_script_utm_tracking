@@ -1,5 +1,5 @@
 # Co skript dělá?
-Projde všechny kampaně v účtu a přidá do nich custom parametr s názvem kampaně a tracking template.
+Projde všechny kampaně v účtu a přidá do nich custom parametr s názvem kampaně a tracking template. Neřeší přidávání UTM parametrů s názvy ad groupy, reklam či podobné věci. Jde jen o základní měření na úrovni kampaně. Ale snadno si tam můžete přidat další funkcionality.
 
 # Které kampaně podporuje?
 V současnosti podporuje všechny, které podporuje Google Ads Scripts. Patří mezí ně Search, Display, Video, Shopping, pMax. Bohužel DemandGen kampaně nejsou v Google Ads skriptech nyní podporovány. U nich musíte přidat UTM parametry manuálně.
@@ -24,3 +24,4 @@ Určitě bych naplánoval pravidelné odbíhání skriptu. Vše odbíhám pořá
 # Limity
 * MCC skript běží na max 50 účtech. Pokud potřebujete víc, můžete do skriptu přidat batching.
 * Jak jsem psal, také nejsou podporovány Demand Gen kampaně, u nich musíte přidat utm tracking manuálně.
+* Pokud máte fakt hoooodně kampaní, tak by teoreticky mohl skript timeoutovat, ale spíše si to nemyslím.

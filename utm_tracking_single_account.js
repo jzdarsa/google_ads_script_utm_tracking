@@ -5,7 +5,7 @@ function main() {
   tryHandleCampaigns(AdsApp.campaigns(), "Standard & Others");
   tryHandleCampaigns(AdsApp.shoppingCampaigns(), "Shopping");
   tryHandleCampaigns(AdsApp.performanceMaxCampaigns(), "Performance Max");
-  tryHandleCampaigns(AdsApp.videoCampaigns(), "Video");
+  // tryHandleCampaigns(AdsApp.videoCampaigns(), "Video");
 
   Logger.log("Processing completed for account: " + AdsApp.currentAccount().getCustomerId());
 }

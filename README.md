@@ -5,7 +5,7 @@ Projde všechny kampaně v účtu a přidá do nich custom parametr s názvem ka
 Určitě bych naplánoval pravidelné odbíhání skriptu. Vše odbíhám pořád na všech kampaních, protože názvy kampaní se mohou změnit a asi pak chcete měnit i UTM parametry. Pokud ne, můžete dát kampaním ve skriptu label a na nich již nic dalšího neodbíhat. Já mám nastavený skript na odbíhání každou hodinu, ničemu to nevadí a zaručí vám, že vše bude správně otagované.
 
 # Které kampaně podporuje?
-V současnosti podporuje všechny, které podporuje Google Ads Scripts. Patří mezí ně Search, Display, Video, Shopping, pMax. Bohužel DemandGen kampaně nejsou v Google Ads skriptech nyní podporovány. U nich musíte přidat UTM parametry manuálně.
+V současnosti podporuje všechny, které podporuje Google Ads Scripts. Patří mezí ně Search, Display a Shopping, pMax. Bohužel Video a DemandGen kampaně nejsou v Google Ads skriptech nyní podporovány. U nich musíte přidat UTM parametry manuálně.
 
 # Přidání UTM parametrů do kampaní
 Tento jednoduchý skript přidá UTM parametry do kampaní, konkrétně přidá tento tracking template:

@@ -11,7 +11,7 @@ function processAccount() {
   tryHandleCampaigns(AdsApp.campaigns(), "Standard & Others");
   tryHandleCampaigns(AdsApp.shoppingCampaigns(), "Shopping");
   tryHandleCampaigns(AdsApp.performanceMaxCampaigns(), "Performance Max");
-  tryHandleCampaigns(AdsApp.videoCampaigns(), "Video");
+  // tryHandleCampaigns(AdsApp.videoCampaigns(), "Video");
 
   // Return a result that you can use later in allFinished (optional)
   return account.getCustomerId();

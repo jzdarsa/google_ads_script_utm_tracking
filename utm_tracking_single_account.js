@@ -25,7 +25,9 @@ function handleCampaigns(campaignIteratorFunction, campaignType) {
   while (campaignIterator.hasNext()) {
     var campaign = campaignIterator.next();
     try {
+      // Use either this template or change the campaignId in utm_id to valuetrack {campaignid}
       var trackingTemplate = "{lpurl}?utm_source=google&utm_medium=cpc&utm_campaign={_campaign}&utm_id=" + campaign.getId();
+      // var trackingTemplate = "{lpurl}?utm_source=google&utm_medium=cpc&utm_campaign={_campaign}&utm_id={campaignid}";
       campaign.urls().setTrackingTemplate(trackingTemplate);
       // Set custom parameters or perform other universal actions here
       campaign.urls().setCustomParameters({campaign: encodeURIComponent(campaign.getName())});
